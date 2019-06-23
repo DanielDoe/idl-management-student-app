@@ -1,15 +1,7 @@
 .main-page-container {
-  background: #232526; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #414345,
-    #232526
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #414345,
-    #232526
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)),
+    url("../../assets/img/library-922998_1920.jpg");
 
   box-sizing: border-box;
   height: 100%;
@@ -18,20 +10,6 @@
 }
 
 .main-container {
-  /* width: 600px;
-  height: 50%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  box-sizing: border-box;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
-  grid-template-rows: 1fr;
-  grid-gap: 30px; */
-
   width: 50%;
   margin: auto;
   display: flex;
@@ -100,18 +78,16 @@
 
 @media only screen and (max-width: 600px) {
   .main-page-container {
-    background: #232526; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-      to right,
-      #414345,
-      #232526
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-      to right,
-      #414345,
-      #232526
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    /* background-size: cover; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)),
+      url("../../assets/img/library-922998_1920.jpg") no-repeat center center
+        fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
     box-sizing: border-box;
     height: 100%;
     width: 100%;
@@ -119,20 +95,6 @@
   }
 
   .main-container {
-    /* width: 600px;
-    height: 50%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    box-sizing: border-box;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
-    grid-template-rows: 1fr;
-    grid-gap: 30px; */
-
     width: 80%;
     margin: auto;
     display: flex;
@@ -204,17 +166,9 @@
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
   .main-page-container {
-    background: #232526; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-      to right,
-      #414345,
-      #232526
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-      to right,
-      #414345,
-      #232526
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)),
+      url("../../assets/img/library-922998_1920.jpg");
 
     box-sizing: border-box;
     height: 100%;
@@ -223,20 +177,6 @@
   }
 
   .main-container {
-    /* width: 600px;
-    height: 50%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    box-sizing: border-box;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
-    grid-template-rows: 1fr;
-    grid-gap: 30px; */
-
     width: 80%;
     margin: auto;
     display: flex;
@@ -304,4 +244,3 @@
     transform: translateY(5px);
   }
 }
-
