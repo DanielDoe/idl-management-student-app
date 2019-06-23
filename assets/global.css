@@ -1,0 +1,46 @@
+/*
+Global css for the app 
+*/
+
+.layout-container-view {
+  height: 100vh;
+  width: 100%;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .layout-container-view {
+    height: 100vh;
+    width: 100%;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  .layout-container-view {
+    height: 100vh;
+    width: 100%;
+    
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .layout-container-view {
+    height: 100vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .layout-container-view {
+    height: 100vh;
+    width: 100%;
+  }
+}
+
+/* @media only screen and (min-width: 600px) {
+  .layout-container-view {
+    height: 50vh;
+    width: 50%;
+  }
+} */

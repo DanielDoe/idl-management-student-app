@@ -1,0 +1,30 @@
+{
+  "name": "idl-management-student-app",
+  "version": "1.0.0",
+  "description": "Web app to manage the student data of idl project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielDoe/idl-management-student-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielDoe/idl-management-student-app/issues"
+  },
+  "homepage": "https://github.com/DanielDoe/idl-management-student-app#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.1.2",
+    "@zeit/next-css": "^1.0.1",
+    "antd": "^3.19.7",
+    "next": "^8.1.0",
+    "next-images": "^1.1.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}

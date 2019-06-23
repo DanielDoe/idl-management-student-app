@@ -1,0 +1,38 @@
+.login-page-container {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.70),
+        rgba(0, 0, 0, 0.70)
+      ),
+      url("../../assets/img/students-3982520_1920.jpg");
+  }
+  .grid-container {
+    height: 100% !important;
+  }
+
+  .login-view {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .login-form {
+    height: 15rem;
+    max-width: 20rem;
+    width: 50%;
+    margin: 0 auto !important;
+  }
+  .logo-img {
+    height: 7rem;
+    width: 7rem;
+  }
+  .logo-container,
+  .login-form-button .ant-form-item-control {
+    text-align: center;
+  }
+
+  .login-button {
+    width: 50%;
+  }
