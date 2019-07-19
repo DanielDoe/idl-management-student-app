@@ -17,7 +17,7 @@ class StudentLoginForm extends React.Component {
   render() {
     const { getFieldDecorator } = this.props.form;
     return (
-      <Form onSubmit={this.handleSubmit} className="login-form">
+      <Form onSubmit={this.handleSubmit} className="login-form" style={{ width: '75%'}}>
         <div className="logo-container">
           <img src={Logo} alt="logo" className="logo-img" />
         </div>
